@@ -8,6 +8,27 @@
  * @author Diego A. Vivolo
  */
 public class Hormiga {
-    private String Ant;
-    private int 
-}
+    private String hormiga;
+    private int cantidad;
+    
+    
+    public Hormiga(String hormiga, int cantidad){
+        this.hormiga = hormiga;
+        this.cantidad = cantidad;
+    }
+    
+    public String getHormiga(){
+        return hormiga;
+    }
+    public void sethormiga(String homiga) {
+        this.hormiga = hormiga;
+    }
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    public void setCantidad (int cantidad) {
+        this.cantidad = cantidad;
+    }
+}    
+    
