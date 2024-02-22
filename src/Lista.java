@@ -8,9 +8,8 @@ import java.util.Objects;
  *
  * @author Diego A. Vivolo
  */
-public class Lista {
 
-public class List<T> {
+public class Lista<T> {
     private ListNode<T> first;
     private ListNode<T> last;
     private int size;
