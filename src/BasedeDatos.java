@@ -5,7 +5,7 @@
 
 /**
  *
- * @author Diego A. Vivolo
+ * @author Diego A. Vivolo/esto viene de Prueba
  */
 public class BasedeDatos {
     
