@@ -50,17 +50,6 @@ public class Grafo {
         aristas++;
     }
     
-    // Método para obtener los adyacentes a un vértice
-    public Iterable<Integer> adyacentes(int v) {
-        ListNode lista = adj[v];
-        ListNode.Node actual = lista.cabeza;
-        ArrayList<Integer> adyacentes = new ArrayList<>();
-        while (actual != null) {
-            adyacentes.add(actual.destino);
-            actual = actual.siguiente;
-        }
-        return adyacentes;
-    }
 }
 
 
